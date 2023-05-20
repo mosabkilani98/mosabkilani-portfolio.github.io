@@ -62785,16 +62785,16 @@ $S:369}
 A.AN.prototype={
 I(a){var s,r,q,p=null,o=a.N(t.w).f.a.a,n=o>=800
 if(n)s=o/60
-else s=o/40
+else s=o/25
 s=A.t7(p,B.yP,s,new A.QE(),p)
 if(n)r=o/60
-else r=o/40
+else r=o/25
 r=A.t7(p,B.yQ,r,new A.QF(),p)
 if(n)q=o/60
-else q=o/40
+else q=o/25
 q=A.t7(p,B.yR,q,new A.QG(),p)
 if(n)o/=60
-else o/=40
+else o/=25
 return new A.Hq(A.a([s,r,q,A.t7(p,B.yO,o,new A.QH(),p)],t.p),p)}}
 A.QE.prototype={
 $0(){B.c2.lW(window,"https://www.linkedin.com/in/mosab-kilani-057751249","_blank")},
@@ -62811,7 +62811,7 @@ $S:0}
 A.B_.prototype={
 I(a){var s,r=null,q=a.N(t.w).f.a.a,p=q>=800
 if(p)s=12*$.X().gaa()
-else s=q<600?25*$.X().gaa():20*$.X().gaa()
+else s=q<600?30*$.X().gaa():25*$.X().gaa()
 s=A.vT("DOWNLOAD MY CV",r,r,r,r,r,r,r,A.aN(r,r,B.U,r,r,r,r,r,r,r,r,s,r,r,B.J,r,r,!0,r,r,r,r,r,r,r,r),r,r,r)
 if(p)q/=60
 else q/=40
@@ -62829,7 +62829,7 @@ A.dR.prototype={
 I(a){var s=null
 return A.dF(A.a([B.zh,A.bp(this.c,s,A.aN(s,s,B.aa,s,s,s,s,s,s,s,s,11*$.X().gaa(),s,s,s,s,s,!0,s,s,s,s,s,s,s,s))],t.p),B.G,B.Y,B.T)}}
 A.D5.prototype={
-I(a){var s=null,r="Profissional",q=t.p
+I(a){var s=null,r="Professional",q=t.p
 return A.eL(A.a([A.bp("Languages",s,A.aN(s,s,s,s,s,s,s,s,s,s,s,11*$.X().gaa(),s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.by(s,10*$.X().gfg(),s),A.dF(A.a([A.bp("Arabic:",s,A.aN(s,s,B.i,s,s,s,s,s,s,s,s,11*$.X().gaa(),s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.bp(r,s,A.aN(s,s,B.aa,s,s,s,s,s,s,s,s,11*$.X().gaa(),s,s,B.J,s,s,!0,s,s,s,s,s,s,s,s))],q),B.G,B.aF,B.T),B.aP,A.dF(A.a([A.bp("English:",s,A.aN(s,s,B.i,s,s,s,s,s,s,s,s,11*$.X().gaa(),s,s,s,s,s,!0,s,s,s,s,s,s,s,s)),A.bp(r,s,A.aN(s,s,B.aa,s,s,s,s,s,s,s,s,11*$.X().gaa(),s,s,B.J,s,s,!0,s,s,s,s,s,s,s,s))],q),B.G,B.aF,B.T)],q),B.bd,B.Y)}}
 A.eV.prototype={
 I(a){return A.agU(new A.Wk(this,a.N(t.w).f.a),B.be,new A.au(0,this.d,t.Y),t.i)}}
